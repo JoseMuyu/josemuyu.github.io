@@ -1,0 +1,92 @@
+body{
+    background-image: url("https://i.pinimg.com/originals/23/ce/8e/23ce8ec4d5b057c3eec8902e29d8d351.jpg");
+    font-family: "Roboto", Arial, sans-serif;
+}
+main{
+    display: flex;
+    flex-direction: column;
+   /* align-items: center;*/
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+section{
+    position: relative;
+    margin: 0;
+    padding: 2em;
+    
+}
+.carousel-inner{
+    margin-left: 100px;
+}
+.estatico{
+    text-align: justify;
+}
+#sobre-nosotros{
+    background-color: white;
+    border: solid;
+}
+#equipo{
+    background-color: white;
+    float: left;
+}
+
+#equipo > p {
+    float: left;
+    text-align: left;
+}
+#sobre-nosotros > p{
+ float: left;
+ width: 60%;
+
+}
+#historia{
+    background-color: black;
+    color: aliceblue;
+    border: double;
+}
+#historia > h2,p{
+    float: right;
+    white-space: pre-line;
+    width: 60%;
+   
+}
+#img-historia{
+    display: flex;
+}
+/*Tarjetas*/
+.tarjetas{
+    display: flex;
+}
+.card{
+    margin: 0 .5em;
+    width: calc(100%/3);
+}
+
+.card-text{
+    float: left;
+    text-align: left;
+}
+
+#formulario{
+    background-color: #ebeef3;
+}
+
+/*Formulario*/
+.container {
+    max-width: 800px;   
+  }
+
+  label, textarea {
+    width: 400px;
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  input[type="submit"] {
+   
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
